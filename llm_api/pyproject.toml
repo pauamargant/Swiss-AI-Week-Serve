@@ -1,0 +1,22 @@
+[project]
+name = "lang-assist"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gradio>=5.47.1",
+    "httpx>=0.25.0",
+    "python-dotenv>=1.0.0",
+    "openai>=1.0.0",
+    "sparqlwrapper>=2.0.0",
+    "bs4>=0.0.2",
+    "lxml>=6.0.2",
+    "sentence-transformers>=5.1.1",
+    "matplotlib>=3.10.6",
+    "pypdfium2>=4.30.0",
+    "streamlit>=1.50.0",
+    "streamlit-chat-widget>=0.2.0",
+    "fastapi>=0.117.1",
+    "uvicorn>=0.37.0",
+]
